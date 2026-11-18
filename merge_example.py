@@ -38,14 +38,7 @@ print(marks)
 # The on parameter specifies the common column, and 
 # the how parameter specifies the type of merging, such as inner, left, right, or outer.
 
-inner_result = pd.merge(
-    students,
-    marks,
-    on="Student_ID",
-    how="inner"
-)
-print("Inner Join Result:")
-print(inner_result) 
+
 
 
 # 11.left join
