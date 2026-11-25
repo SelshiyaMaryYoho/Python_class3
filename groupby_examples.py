@@ -29,7 +29,8 @@ print(grouped["Salary"].sum())
 
 # 8. What is Aggregation? 
 
-# Aggregation means performing calculations on grouped data to get a summary, such as sum, mean, count, minimum, or maximum. 
+# Aggregation means performing calculations on grouped data to get a summary, 
+# such as sum, mean, count, minimum, or maximum. 
 
 # To summarize large amounts of data and understand the results easily. 
 

@@ -1,5 +1,6 @@
 # What is Data Cleaning?
-# Data cleaning is the process of identifying and correcting missing values, duplicate records, incorrect data types, and other errors in a dataset.
+# Data cleaning is the process of identifying and correcting missing values,
+#  duplicate records, incorrect data types, and other errors in a dataset.
 # Why do we use it?
 # - To remove incorrect data.
 # - To handle missing values.
@@ -9,7 +10,8 @@
 
 
 # 2. isna()
-# The isna() function is used to identify missing values in a DataFrame. It returns True for missing values and False for available values.
+# The isna() function is used to identify missing values in a DataFrame. 
+# It returns True for missing values and False for available values.
 # To identify missing values in a dataset
 import pandas as pd
 
@@ -77,7 +79,8 @@ print(df.dtypes)
 # Changing data types
 # Suppose Age should be an integer column. 
 
-df["Age"] = df["Age"].fillna(0).astype(int)
+df["Age"] = df["Age"].fillna(0)
+df["Age"] = df["Age"].astype(int)
 
 print("6. Data Types:")
 print(df.dtypes)
